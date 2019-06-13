@@ -1,5 +1,7 @@
 # CC3200_Azure-IoT-hub-mqtt
 
+Sending CC3200 Acclerometer and Temperature sensor reading to Azure IoT hub using MQTT protocol. 
+
 MQTT is a good fit for embedded WiFi solutions because it is a lightweight protocol. With MQTT, there are 3 main components:
 
 PUBLISHER: In our demo, the LaunchPad will be the publisher, as it will be publishing sensor data under a specific ''Topic''.
