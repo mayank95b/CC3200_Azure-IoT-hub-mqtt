@@ -21,10 +21,11 @@ char AccZ[10]="";
 char Accl_read[50];
 
 // your network name also called SSID
-char ssid[] = "Datasemantics";
-char password[] = "D@ta#sem@nticz";
+char ssid[] = "";
+char password[] = "";
 // MQTTServer to use
-char server[] = "192.168.20.22";
+// Enter the IP of ur Raspberry pi
+char server[] = "";
 
 void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Received message for topic ");
