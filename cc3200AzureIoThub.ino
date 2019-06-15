@@ -1,11 +1,3 @@
-/*
- Basic MQTT example 
- 
-  - connects to an MQTT server
-  - publishes "hello world" to the topic "outTopic"
-  - subscribes to the topic "inTopic"
-*/
-
 #include <SPI.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
